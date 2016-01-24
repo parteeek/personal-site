@@ -1,0 +1,11 @@
+{% extends "/views/base.html" %}
+
+{% block body %}
+<section>
+  <h1>{{doc.title}}</h1>
+  <p>{{doc.subtitle}}</p>
+</section>
+<section>
+  {{doc.html|safe}}
+</section>
+{% endblock %}

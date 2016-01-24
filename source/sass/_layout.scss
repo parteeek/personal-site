@@ -1,0 +1,44 @@
+/**
+ * Layout styles
+ */
+section {
+  align-items: center;
+  border-top: 20px solid;
+  border-left: 20px solid;
+  border-right: 20px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 4%;
+
+  &:last-of-type {
+    border-bottom: 20px solid;
+  }
+
+  h1 {
+    font-size: 17vw;
+    text-transform: uppercase;
+  }
+
+  p {
+    text-align: center;
+    margin: 0.5em 0 1em;
+    width: 70%;
+  }
+
+  a {
+    display: block;
+    color: inherit;
+    font-weight: 500;
+    margin-bottom: 1em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .tagline {
+    display: inline-block;
+    font-weight: 500;
+  }
+}

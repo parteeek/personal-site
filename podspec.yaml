@@ -1,0 +1,23 @@
+grow_version: ">=0.0.58"
+title@: Parteek
+description@: "I am a San Francisco based designer currently working at Google on a design tool called Form."
+
+static_dirs:
+- static_dir: /css/
+  serve_at: /static/css/
+- static_dir: /js/
+  serve_at: /static/js/
+- static_dir: /source/fonts/
+  serve_at: /static/fonts/
+- static_dir: /source/images/
+  serve_at: /static/images/
+
+preprocessors:
+- kind: sass
+  sass_dir: /source/sass/
+  out_dir: /css/
+
+deployments:
+  default:
+    destination: local
+    out_dir: deploy/

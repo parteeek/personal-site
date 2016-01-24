@@ -1,0 +1,12 @@
+{
+  "name": "Parteek",
+  "author": "jax.bruwer@gmail.com",
+  "version": "1.0",
+  "description": "Parteek webz 🔥🔥🔥",
+  "private": true,
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^1.12.12"
+  }
+}

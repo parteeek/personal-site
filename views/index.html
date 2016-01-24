@@ -1,0 +1,22 @@
+{% extends "/views/base.html" %}
+
+{% block body %}
+<section>
+  <h1>{{doc.title}}</h1>
+  <p class="tagline">Designer</p>
+</section>
+<section>
+  <h1>Projects</h1>
+  <div class="projects-links">
+    {% for page in g.docs('projects') %}
+      <a href="{{page.url.path}}">{{page.title}}</a>
+    {% endfor %}
+  </div>
+</section>
+<section>
+  <h1>About</h1>
+  <p>Parteek is a <span class="tagline">Designer</span> based out of San Francisco, CA. During my freetime I’m riding my bike, eating croissants, drinking coffee, or learning new stuff.</p>
+
+  <p>Currently I do stuff at Google, alongside projects I take on during my personal time.</p>
+</section>
+{% endblock %}

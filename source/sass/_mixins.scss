@@ -1,0 +1,33 @@
+/**
+ * Mixins
+ */
+
+@mixin font-smoothing() {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin bp($size) {
+  @if $size == s {
+    @media #{$screen-s} { @content; }
+  }
+  @else if $size == m {
+    @media #{$screen-s} { @content; }
+  }
+}
+
+@mixin image-2x($image, $size: false) {
+  @media (-webkit-min-device-pixel-ratio: 2) {
+    background-image: url($image);
+    @if $size {
+      background-size: $size;
+    }
+  }
+
+  @media (min-resolution: 192dpi) {
+    background-image: url($image);
+    @if $size {
+      background-size: $size;
+    }
+  }
+}

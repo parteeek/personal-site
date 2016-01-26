@@ -3,9 +3,9 @@
  */
 section {
   align-items: center;
-  border-top: 20px solid;
-  border-left: 20px solid;
-  border-right: 20px solid;
+  border-top: $borderpx;
+  border-left: $borderpx;
+  border-right: $borderpx;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +13,7 @@ section {
   padding: 4%;
 
   &:last-of-type {
-    border-bottom: 20px solid;
+    border-bottom: $borderpx;
   }
 
   h1 {

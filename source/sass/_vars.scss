@@ -10,7 +10,7 @@ $text-color: #000;
 /*
  * Fonts
  */
-$font-stack: 'Roboto', arial, sans-serif;
+$font-stack: 'Apercu Pro', Roboto, arial, sans-serif;
 $font-size: 16px;
 
 /*
@@ -18,3 +18,8 @@ $font-size: 16px;
  */
 $screen-s: "(min-width: 480px)";
 $screen-m: "(min-width: 768px)";
+
+/*
+ * Layout
+ */
+$borderpx: 40px solid;

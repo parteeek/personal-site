@@ -12,6 +12,9 @@ curl https://install.growsdk.org | bash
 
 # Install webpack locally using npm
 npm i
+
+# Install webpack globally
+npm install webpack -g
 ```
 
 ## Running development servers locally

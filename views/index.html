@@ -9,7 +9,7 @@
   <h1>Projects</h1>
   <div class="projects-links">
     {% for page in g.docs('projects') %}
-      <a href="{{page.url.path}}">{{page.title}}</a>
+      <p><a href="{{page.url.path}}">{{page.title}}</a></p>
     {% endfor %}
   </div>
 </section>

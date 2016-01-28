@@ -1,7 +1,0 @@
----
-$title@: Form
-subtitle@: A mobile prototyping tool for iOS.
----
-Tools shape your work. As constraints of the platform you’re designing for align, your work is closer to production level results.
-
-Form is a node-based prototyping tool designed to create interactive prototypes that execute on iOS devices.

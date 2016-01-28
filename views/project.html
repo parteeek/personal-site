@@ -5,7 +5,7 @@
   <h1>{{doc.title}}</h1>
   <p>{{doc.subtitle}}</p>
 </section>
-<section>
-  {{doc.html|safe}}
-</section>
+
+{{doc.html|render|safe}}
+
 {% endblock %}

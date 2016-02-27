@@ -3,17 +3,27 @@
  */
 section {
   align-items: center;
-  border-top: $borderpx;
-  border-left: $borderpx;
-  border-right: $borderpx;
+  border-top: $borderpx-xs;
+  border-left: $borderpx-xs;
+  border-right: $borderpx-xs;
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-height: 80vh;
   padding: $body-padding;
 
+  @include bp(s) {
+    border-top: $borderpx-s;
+    border-left: $borderpx-s;
+    border-right: $borderpx-s;
+  }
+
   &:last-of-type {
-    border-bottom: $borderpx;
+    border-bottom: $borderpx-xs;
+
+    @include bp(s) {
+      border-bottom: $borderpx-s;
+    }
   }
 
   h1 {

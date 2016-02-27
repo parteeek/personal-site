@@ -12,7 +12,7 @@
     @media #{$screen-s} { @content; }
   }
   @else if $size == m {
-    @media #{$screen-s} { @content; }
+    @media #{$screen-m} { @content; }
   }
 }
 

@@ -1,0 +1,43 @@
+.gaga-section {
+  img {
+    max-width: none;
+  }
+
+  .gaga1-iphone {
+    position: relative;
+    margin: 0 auto;
+
+    @include bp(m) {
+      margin: auto auto auto 0;
+    }
+
+    @include bp(s) {
+      transform: rotate(-40deg);
+    }
+
+    img {
+      margin: 0 auto;
+      max-width: 199px;
+
+      @include bp(m) {
+        max-width: 300px;
+      }
+    }
+
+    video {
+      position: absolute;
+      top: 56px;
+      width: 156px;
+      left: 22px;
+      height: 279px;
+
+      @include bp(m) {
+        top: 84px;
+        width: 236px;
+        left: 32px;
+        height: auto;
+      }
+    }
+
+  }
+}

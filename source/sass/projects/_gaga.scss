@@ -12,7 +12,7 @@
     }
 
     @include bp(s) {
-      transform: rotate(-40deg);
+      transform: rotate(-15deg);
     }
 
     img {
@@ -20,7 +20,7 @@
       max-width: 199px;
 
       @include bp(m) {
-        max-width: 300px;
+        max-width: 396px;
       }
     }
 
@@ -32,9 +32,9 @@
       height: 279px;
 
       @include bp(m) {
-        top: 84px;
-        width: 236px;
-        left: 32px;
+        top: 111px;
+        width: 312px;
+        left: 42px;
         height: auto;
       }
     }

@@ -7,7 +7,7 @@
 var Titles = function() {
 
   /** @private */
-  this.titles_ = ['Designer', 'Creative', 'Croissant Connoisseur', '3D Tinker-er', 'Cyclist', 'Prototyper', 'Person', 'Chief Button Artist'];
+  this.titles_ = ['Designer', 'Graphics Person', 'Croissant Connoisseur', '3D Illustrator', 'Cyclist', 'Person', 'Chief Button Artist', 'Virtual Realitor'];
 
   /** @private */
   this.longestTitle_ =
